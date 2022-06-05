@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    -webkit-appearance: none;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #11a346;
+}
+
+
+#navbar{
+    height: 56px;
+    border-bottom: 1px #c4c4c4;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top: 8px;
+}
+
+#menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#menu li a{
+    margin-right: 1rem;
+    text-decoration: none;
+    font-family: "Sergeo UI", sans-serif;
+    color: lightslategray;
+    font-size: 14px;
+    display: block;
+}
+
+#menu li a:hover{
+    color: #11a346;
+    font-weight: bold;
+}
+
+.btn-login {
+    background-color: #11a346;
+    padding: 8px 20px;
+    border: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-login:hover{
+    box-shadow: 0px 1px 1px 1px lightslategray;
+}
+
+.btn-login a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#hero{
+    height: 335px;
+    background-color: #11a346;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: arial, sans-serif;
+}
+
+#hero img{
+    height: 58px;
+    width: 43px;
+}
+
+#hero-content {
+    display: flex;
+    color: white;
+    padding-left: 12px;
+    text-align: center;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+#hero-content>p{
+    font-weight: 600;
+}
+
+#description p{
+    margin-top: 3rem;
+    text-align: center;
+    color: lightslategray;
+    line-height: 190%;
+    margin-bottom: 30px;
+    padding: 0 1rem;
+    font-family: "Sergeo UI", sans-serif;
+    font-size: 14px;
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 7rem;
+}
+
+.btn {
+    padding: 12px 2rem;
+    border: none;
+    border-radius: 0.375em;
+
+}
+
+.btn-fill {
+    background-color: #11a346;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-fill:hover {
+    box-shadow: 0px 2px 2px 2px lightslategray;
+}
+
+.btn-fill a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 1px solid #11a346;
+    padding: 0 15px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.btn-outline:hover{
+    background: #11a346;
+    box-shadow: 2px 2px 2px 2px lightslategray;
+}
+
+.btn-outline:hover>a{
+    color: white;
+    cursor: pointer;
+}
+
+.btn-outline a{
+    text-decoration: none;
+    color: #11a346;
+}
+
+#frame-youtube {
+    display: inline-block;
+    margin: 0 246px;
+    margin-bottom: 6rem;
+    box-shadow: 0px 2px 2px 2px lightslategray;
+}
+
+#news {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: arial, sans-serif;
+    padding: 14px;
+    margin-bottom: 40px;
+}
+
+#news img {
+    height: 4.5rem;
+}
+
+#news h2 {
+    padding-left: 15px;
+    font-size: 21px;
+    color: #464646;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+#card {
+    width: 340px;
+    height: 490px;
+    margin-bottom: 15px;
+    margin-left: 1rem;
+    background: transparent;
+    box-shadow: 0px 2px 2px 2px lightslategray;
+}
+
+.contentcard-1 img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.contentcard-1 h3 {
+    font-family: sans-serif;
+    font-size: 17px;
+    padding-left: 5px;
+}
+
+.card-description1 p {
+    box-sizing: border-box;
+    padding-top: 10px ;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+    padding-left: 5px;
+}
+
+.card-button {
+    padding: 6px 20px;
+    border-radius: 5px;
+    border: transparent;
+    float: right;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    background-color: rgb(21, 178, 250);
+    cursor: pointer;
+}
+
+.card-button a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+.card-button:hover {
+    box-shadow: 0px 2px 2px 2px lightslategray;
+}
+
+#card-2 {
+    width: 340px;
+    height: 490px;
+    margin-left: 1rem;
+    margin-bottom: 15px;
+    background: transparent;
+    box-shadow: 0px 2px 2px 2px lightslategray;
+}
+
+.contentcard-2 img{
+   object-fit: cover;
+   width: 100%;
+}
+
+.contentcard-2 h3 {
+    font-family: sans-serif;
+    font-size: 17px;
+    padding-left: 5px;
+}
+
+.card-description2 p{
+    box-sizing: border-box;
+    padding-top: 10px ;
+    font-family: sans-serif;
+    padding-left: 5px;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.card-button2 {
+    padding: 6px 20px;
+    border-radius: 5px;
+    border: transparent;
+    float: right;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    background-color: rgb(21, 178, 250);
+    cursor: pointer;
+}
+
+.card-button2 a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+}
+
+.card-button2:hover {
+    box-shadow: 0px 2px 2px 2px lightslategray;
+}
+
+.card-3 {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    width: 340px;
+    height: 490px;
+    box-shadow: 0px 2px 2px 2px lightslategray;
+}
+
+.contentcard-3 img{
+    object-fit: cover;
+    width: 100%;
+}
+ 
+.contentcard-3 h3 {
+        font-family: sans-serif;
+        font-size: 14px;
+        padding-left: 5px;
+}
+ 
+.card-description3 p{
+        box-sizing: border-box;
+        padding-top: 10px ;
+        font-family: sans-serif;
+        padding-left: 5px;
+        font-size: 14px;
+        line-height: 150%;
+}
+ 
+.card-button3 {
+        padding: 6px 20px;
+        border-radius: 5px;
+        border: transparent;
+        float: right;
+        margin-right: 1rem;
+        margin-top: 2.3rem;
+        background-color: rgb(21, 178, 250);
+        cursor: pointer;
+}
+ 
+.card-button3 a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: 400;
+}
+ 
+.card-button3:hover {
+    box-shadow: 0px 2px 2px 2px lightslategray;
+}
+
+
+
+
+
